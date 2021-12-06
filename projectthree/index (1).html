@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project Three Rainforests</title>
+  </head> 
+  
+  <body>
+    <style>
+    body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+      height: 100vh;
+    }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    /* Container holding the image and the text */
+.container {
+  position: relative;
+  top: 0px;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;}
+
+  
+    </style> 
+
+<center>
+
+  <div class="container"> 
+    
+    <img src="frame2.png" style="width:100%;">
+    <div class="text-block">
+      <div class="centered"><h1>Welcome to The Rainforest</h1></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  
+   <div class="centered"> <audio src="Rainforest-sounds.mp3" controls>
+  <p>If you are reading this, it is because your browser does not support the audio element.</p>
+  </audio></div>
+</center>
+</body>
+</html>
