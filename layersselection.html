@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project Three Rainforests — Top Level</title>
+  </head> 
+  
+  <body>
+    <style>
+    body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+      height: 100vh;
+    }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+.centered{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.centered2{
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.centered3{
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.centered4{
+  position: absolute;
+  top: 75%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.centered5{
+  position: absolute;
+  top: 97%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+
+    /* Container holding the image and the text */
+.container {
+  position: relative;
+  top: 0px;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -20%);
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;}
+
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(85, 183, 240);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgb(0, 255, 200);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+    </style> 
+<marquee width="100%" direction="left" height="100px">
+  <img src="macaw.png" style="width:10%;">
+  </marquee>
+
+
+    <div class="centered2">
+<button class="styled"
+        type="button">
+    Emergent
+</button>
+</div>
+
+<div class="centered3">
+  <button class="favorite styled"
+          type="button">
+      Canopy
+  </button>
+  </div>
+
+  <div class="centered4">
+    <button class="favorite styled"
+            type="button">
+        Understory
+    </button>
+    </div>
+
+    <div class="centered5">
+      <button class="favorite styled"
+              type="button">
+          Forest Floor
+      </button>
+      </div>
+
+
+<div class="container"> 
+    
+  <img src="layers.png" style="width:100%;">
+
+  
+<br>
+<br>
+<br>
+<br>
+   <div class="centered"> <audio src="Rainforest-sounds.mp3" controls>
+  <p>If you are reading this, it is because your browser does not support the audio element.</p>
+  </audio></div>
+
+</body>
+</html>
